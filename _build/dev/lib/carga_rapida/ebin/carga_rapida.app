@@ -1,0 +1,9 @@
+{application,carga_rapida,
+             [{modules,['Elixir.CargaRapida',
+                        'Elixir.CargaRapida.Application']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"carga_rapida"},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.CargaRapida.Application',[]}}]}.
